@@ -6,15 +6,17 @@ const mongoose = require('mongoose');
 app.use(cors());
 let path = require('path');
 
+let port = process.env.PORT || 3010
 
-if(process.env.NODE_ENV !== "production"){
+
+if(process.env.NODE_ENV === "production"){
     app.use(express.static("build"));
     app.get('*', (req,res) => {
       res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
     })
   }
 
-const expressServer = app.listen(3010);
+const expressServer = app.listen(port);
 const io = require('socket.io')(expressServer, {
     cors: {
       origin: '*',
