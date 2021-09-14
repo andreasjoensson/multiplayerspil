@@ -1,3 +1,3 @@
 import io from 'socket.io-client';
-const socket = io('http://localhost:3010');
+const socket = io('https://multiplayerspil.herokuapp.com');
 export default socket;
