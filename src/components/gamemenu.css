@@ -1,0 +1,28 @@
+.introContainer > h1 > span{
+    color:#F50074;
+    }
+    .introContainer > h1{
+    padding-bottom: 10vh;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: white;
+    }
+
+
+    body{
+    background-color:black;
+    }
+    .introContainer{
+        margin:0 auto;
+        text-align: center;
+        flex-direction: column;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        }
+        .knapContainer{
+        display: flex;
+        justify-content: space-evenly;
+        width: 30%;
+        margin: 0 auto;
+        }

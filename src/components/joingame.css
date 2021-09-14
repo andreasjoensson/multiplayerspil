@@ -1,0 +1,39 @@
+#root{
+    width: 98%;
+    }
+    
+    form > .MuiFab-extended{
+    width: 215px;
+    }
+
+.form-group > div{
+margin-bottom: 2vh;
+}
+.form-group{
+display: flex;
+flex-direction: column;
+}
+.beholder{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+        h1{
+            color: white;
+            padding-bottom: 4vh;
+        }
+        .form-group > div > label{
+            color: white;
+        }
+        .form-group > div > div > .MuiInputBase-input{
+        color: white;
+        }
+        .form-group > div > div > fieldset{ 
+           border-color: white;
+        }
+    
+        body{
+        background-color: black;
+        }
