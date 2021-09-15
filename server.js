@@ -28,7 +28,7 @@ const API = require('./Quoatable');
 
 
 
-mongoose.connect("mongodb+srv://andreasmoreno:moreno82100.22@speedracer.zgodj.mongodb.net/speedracer?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology:true}).then(console.log("lortet køre"))
+mongoose.connect("", { useNewUrlParser: true, useUnifiedTopology:true}).then(console.log("SERVER KØRE"))
 
 
 io.on('connect', (socket) => {
